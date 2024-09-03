@@ -1,7 +1,7 @@
 import React from "react";
 import Text from "@/components/atoms/text";
 import ProductCard from "@/components/organisms/product_card";
-import { AppDispatch } from "@/redux/store";
+import { AppDispatch, useAppDispatch } from "@/redux/store";
 import { fetchProducts } from "@/redux/thunks/productThunk/productThunk";
 import { ProductType } from "@/redux/types";
 import { useDispatch } from "react-redux";
@@ -18,7 +18,7 @@ const ProductsSection: React.FC<ProductsSectionProps> = ({
   priceRange,
   ratingRange,
 }) => {
-  const dispatch = useDispatch<AppDispatch>();
+  const dispatch = useAppDispatch();
 
   const [products, setProducts] = useState<ProductType[]>([]);
   const [currentPage, setCurrentPage] = useState(1);

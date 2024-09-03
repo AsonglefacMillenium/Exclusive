@@ -5,7 +5,7 @@ import Link from "next/link";
 import { LuHeart, LuShoppingCart } from "react-icons/lu";
 import { FiSearch } from "react-icons/fi";
 import { useSelector } from "react-redux";
-import { RootState } from "@/redux/store";
+import { RootState, useAppSelector } from "@/redux/store";
 import { IoIosMenu, IoMdClose } from "react-icons/io";
 
 type HeaderProps = {
@@ -13,10 +13,10 @@ type HeaderProps = {
 };
 const Header = ({ setSearchQuery }: HeaderProps) => {
   const [nav, setNav] = useState(false);
-  const totalQuantity = useSelector(
+  const totalQuantity = useAppSelector(
     (state: RootState) => state.cart.totalQuantity
   );
-  const totalPrice = useSelector((state: RootState) => state.cart.totalPrice);
+  const totalPrice = useAppSelector((state: RootState) => state.cart.totalPrice);
 
   const handleSearchChange = (event: ChangeEvent<HTMLInputElement>) => {
     setSearchQuery(event.target.value);

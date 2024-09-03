@@ -1,6 +1,6 @@
 import Text from "@/components/atoms/text";
 import { addToCart, removeFromCart } from "@/redux/slices/cart/cartSlice";
-import { AppDispatch, RootState } from "@/redux/store";
+import { AppDispatch, RootState, useAppDispatch, useAppSelector } from "@/redux/store";
 import React, { useState } from "react";
 import { LuHeart } from "react-icons/lu";
 import { useDispatch, useSelector } from "react-redux";
@@ -24,9 +24,9 @@ const ProductCard = ({
 }: ProductCardProps) => {
   const [hover, setHover] = useState(false);
 
-  const dispatch = useDispatch<AppDispatch>();
+  const dispatch = useAppDispatch();
 
-  const isInCart = useSelector((state: RootState) =>
+  const isInCart = useAppSelector((state: RootState) =>
     state.cart.items.some((item) => item.id === id)
   );
 
