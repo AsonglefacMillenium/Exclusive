@@ -1,0 +1,244 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Wireless Headphones",
+      "description": "Experience high-quality sound without the wires. Perfect for music lovers.",
+      "price": 79.99,
+      "rating": 4.3,
+      "image": "https://via.placeholder.com/150/0000FF/FFFFFF/?text=Headphones"
+    },
+    {
+      "id": 2,
+      "name": "Smartwatch",
+      "description": "Stay connected on the go with this stylish and functional smartwatch.",
+      "price": 199.99,
+      "rating": 3.5,
+      "image": "https://via.placeholder.com/150/008000/FFFFFF/?text=Smartwatch"
+    },
+    {
+      "id": 3,
+      "name": "Gaming Mouse",
+      "description": "Enhance your gaming experience with this precision gaming mouse.",
+      "price": 49.99,
+      "rating": 1.7,
+      "image": "https://via.placeholder.com/150/FF0000/FFFFFF/?text=Gaming+Mouse"
+    },
+    {
+      "id": 4,
+      "name": "Bluetooth Speaker",
+      "description": "Portable Bluetooth speaker with deep bass and crystal-clear sound.",
+      "price": 59.99,
+      "rating": 2.4,
+      "image": "https://via.placeholder.com/150/FFFF00/000000/?text=Speaker"
+    },
+    {
+      "id": 5,
+      "name": "4K Monitor",
+      "description": "Ultra HD 4K monitor with stunning color accuracy and clarity.",
+      "price": 349.99,
+      "rating": 4.6,
+      "image": "https://via.placeholder.com/150/FF00FF/FFFFFF/?text=4K+Monitor"
+    },
+    {
+      "id": 6,
+      "name": "Mechanical Keyboard",
+      "description": "Durable mechanical keyboard with customizable RGB lighting.",
+      "price": 89.99,
+      "rating": 4.8,
+      "image": "https://via.placeholder.com/150/00FFFF/000000/?text=Keyboard"
+    },
+    {
+      "id": 7,
+      "name": "Smartphone",
+      "description": "Latest smartphone with high-speed processing and an advanced camera.",
+      "price": 699.99,
+      "rating": 4.5,
+      "image": "https://via.placeholder.com/150/000000/FFFFFF/?text=Smartphone"
+    },
+    {
+      "id": 8,
+      "name": "Laptop",
+      "description": "High-performance laptop for all your computing needs.",
+      "price": 999.99,
+      "rating": 4.7,
+      "image": "https://via.placeholder.com/150/FFA500/FFFFFF/?text=Laptop"
+    },
+    {
+      "id": 9,
+      "name": "Tablet",
+      "description": "Lightweight tablet with a vibrant display and long battery life.",
+      "price": 299.99,
+      "rating": 3.2,
+      "image": "https://via.placeholder.com/150/800080/FFFFFF/?text=Tablet"
+    },
+    {
+      "id": 10,
+      "name": "Action Camera",
+      "description": "Capture every adventure with this waterproof and shockproof action camera.",
+      "price": 129.99,
+      "rating": 4.6,
+      "image": "https://via.placeholder.com/150/008080/FFFFFF/?text=Action+Camera"
+    },
+    {
+      "id": 11,
+      "name": "Wireless Charger",
+      "description": "Convenient and fast wireless charging for your devices.",
+      "price": 29.99,
+      "rating": 1.4,
+      "image": "https://via.placeholder.com/150/FFC0CB/000000/?text=Wireless+Charger"
+    },
+    {
+      "id": 12,
+      "name": "External Hard Drive",
+      "description": "Portable external hard drive with 1TB of storage capacity.",
+      "price": 59.99,
+      "rating": 2.5,
+      "image": "https://via.placeholder.com/150/800000/FFFFFF/?text=Hard+Drive"
+    },
+    {
+      "id": 13,
+      "name": "Fitness Tracker",
+      "description": "Track your fitness goals with this sleek and accurate fitness tracker.",
+      "price": 49.99,
+      "rating": 4.3,
+      "image": "https://via.placeholder.com/150/808080/FFFFFF/?text=Fitness+Tracker"
+    },
+    {
+      "id": 14,
+      "name": "Drone",
+      "description": "Capture stunning aerial footage with this easy-to-fly drone.",
+      "price": 399.99,
+      "rating": 4.6,
+      "image": "https://via.placeholder.com/150/FFFFF0/000000/?text=Drone"
+    },
+    {
+      "id": 15,
+      "name": "VR Headset",
+      "description": "Immerse yourself in virtual reality with this comfortable VR headset.",
+      "price": 249.99,
+      "rating": 4.5,
+      "image": "https://via.placeholder.com/150/00FA9A/FFFFFF/?text=VR+Headset"
+    },
+    {
+      "id": 16,
+      "name": "Portable Projector",
+      "description": "Project your movies and presentations anywhere with this compact projector.",
+      "price": 199.99,
+      "rating": 4.4,
+      "image": "https://via.placeholder.com/150/6495ED/FFFFFF/?text=Projector"
+    },
+    {
+      "id": 17,
+      "name": "Noise-Canceling Headphones",
+      "description": "Block out distractions and enjoy pure music with these noise-canceling headphones.",
+      "price": 129.99,
+      "rating": 4.7,
+      "image": "https://via.placeholder.com/150/FF6347/FFFFFF/?text=Noise+Canceling+Headphones"
+    },
+    {
+      "id": 18,
+      "name": "Smart Home Hub",
+      "description": "Control your smart home devices with this easy-to-use smart home hub.",
+      "price": 99.99,
+      "rating": 4.3,
+      "image": "https://via.placeholder.com/150/4682B4/FFFFFF/?text=Smart+Home+Hub"
+    },
+    {
+      "id": 19,
+      "name": "Robot Vacuum",
+      "description": "Keep your floors clean effortlessly with this smart robot vacuum.",
+      "price": 249.99,
+      "rating": 4.5,
+      "image": "https://via.placeholder.com/150/2E8B57/FFFFFF/?text=Robot+Vacuum"
+    },
+    {
+      "id": 20,
+      "name": "Electric Toothbrush",
+      "description": "Achieve a deeper clean with this advanced electric toothbrush.",
+      "price": 39.99,
+      "rating": 4.4,
+      "image": "https://via.placeholder.com/150/87CEEB/FFFFFF/?text=Toothbrush"
+    },
+    {
+      "id": 21,
+      "name": "Instant Camera",
+      "description": "Capture and print memories instantly with this retro-style instant camera.",
+      "price": 69.99,
+      "rating": 4.6,
+      "image": "https://via.placeholder.com/150/BA55D3/FFFFFF/?text=Instant+Camera"
+    },
+    {
+      "id": 22,
+      "name": "Portable Power Bank",
+      "description": "Keep your devices charged on the go with this high-capacity power bank.",
+      "price": 24.99,
+      "rating": 4.5,
+      "image": "https://via.placeholder.com/150/FF4500/FFFFFF/?text=Power+Bank"
+    },
+    {
+      "id": 23,
+      "name": "E-Reader",
+      "description": "Read your favorite books anywhere with this lightweight e-reader.",
+      "price": 129.99,
+      "rating": 4.4,
+      "image": "https://via.placeholder.com/150/20B2AA/FFFFFF/?text=E-Reader"
+    },
+    {
+      "id": 24,
+      "name": "Smart Thermostat",
+      "description": "Save energy and stay comfortable with this smart thermostat.",
+      "price": 149.99,
+      "rating": 4.5,
+      "image": "https://via.placeholder.com/150/DAA520/FFFFFF/?text=Thermostat"
+    },
+    {
+      "id": 25,
+      "name": "Home Security Camera",
+      "description": "Keep an eye on your home with this high-definition security camera.",
+      "price": 89.99,
+      "rating": 4.4,
+      "image": "https://via.placeholder.com/150/B0C4DE/FFFFFF/?text=Security+Camera"
+    },
+    {
+      "id": 26,
+      "name": "Electric Kettle",
+      "description": "Boil water quickly and efficiently with this stylish electric kettle.",
+      "price": 29.99,
+      "rating": 4.3,
+      "image": "https://via.placeholder.com/150/5F9EA0/FFFFFF/?text=Kettle"
+    },
+    {
+      "id": 27,
+      "name": "Smart Light Bulbs",
+      "description": "Control the lighting in your home with these energy-efficient smart light bulbs.",
+      "price": 49.99,
+      "rating": 4.5,
+      "image": "https://via.placeholder.com/150/FF69B4/FFFFFF/?text=Smart+Bulbs"
+    },
+    {
+      "id": 28,
+      "name": "Electric Shaver",
+      "description": "Get a smooth, close shave with this high-performance electric shaver.",
+      "price": 59.99,
+      "rating": 4.4,
+      "image": "https://via.placeholder.com/150/FFD700/FFFFFF/?text=Electric+Shaver"
+    },
+    {
+      "id": 29,
+      "name": "Portable Blender",
+      "description": "Blend your favorite smoothies and shakes on the go with this portable blender.",
+      "price": 34.99,
+      "rating": 4.6,
+      "image": "https://via.placeholder.com/150/32CD32/FFFFFF/?text=Blender"
+    },
+    {
+      "id": 30,
+      "name": "Wireless Earbuds",
+      "description": "Enjoy your music and calls wirelessly with these comfortable earbuds.",
+      "price": 49.99,
+      "rating": 4.5,
+      "image": "https://via.placeholder.com/150/FF1493/FFFFFF/?text=Earbuds"
+    }
+  ]
+}
